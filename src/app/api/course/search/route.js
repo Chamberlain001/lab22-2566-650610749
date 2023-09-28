@@ -17,6 +17,5 @@ export const GET = async (request) => {
       courseNo: "asc",
     },
   });
-
   return NextResponse.json({ ok: true, courses });
 };
